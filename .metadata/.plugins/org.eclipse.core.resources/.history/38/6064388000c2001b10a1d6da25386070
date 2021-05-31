@@ -1,0 +1,50 @@
+package aprimoramentoJava;
+
+public class ExpressoesAritmeticas {
+
+	public static void main(String[] args) {
+		//Exemplos de espressoes algébricas, em JAVA
+		// 1ª  a/b	
+		int a = 8;
+		int b = 2;
+		int divisao = a / b;
+		System.out.println(divisao);
+		
+		//2ª A x (b + C)
+		int a1 = 8;
+		int b1 = 2;
+		int c1 = 2;
+		
+		int resultado1 = a1 * (b1 + c1);
+		System.out.println(resultado1);
+		
+		
+		//3ª ((A + B) * C)
+		int a2 = 10;
+		int b2 = 5;
+		int c2 = 8;
+		
+		int resultado2 = ((a2  + b2) * c2);
+		System.out.println(resultado2);
+		
+		
+		// 4ª 
+		//m = a + b + c + d + e
+		//-----------------------
+		//           5
+
+		int a3 = 5;
+		int b3 = 42;
+		int c3 = 20;
+		int d3 = 12;
+		int e3 = 10;
+		
+		int m = (a3 + b3 + c3 + d3 + e3) / 5;
+		System.out.println(m);
+		
+		
+		
+
+	}
+
+}

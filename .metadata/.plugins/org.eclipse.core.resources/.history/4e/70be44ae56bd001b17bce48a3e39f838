@@ -1,0 +1,16 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class MultaVeiculo {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o numero Final: ");
+		int numeroFinal = entrada.nextInt();
+		
+
+	}
+
+}
