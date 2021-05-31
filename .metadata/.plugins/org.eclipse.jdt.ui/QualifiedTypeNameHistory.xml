@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="aprimoramentoJava.Account"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="orientadoObjeto.Proprietario"/>
+    <fullyQualifiedTypeName name="aula02Paciente.Paciente"/>
 </qualifiedTypeNameHistroy>

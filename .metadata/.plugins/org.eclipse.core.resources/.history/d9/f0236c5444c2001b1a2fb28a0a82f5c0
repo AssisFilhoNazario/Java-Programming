@@ -1,0 +1,11 @@
+package aula02Paciente;
+
+public class IMC {
+	double indice;
+	boolean abaixodopesoIdadeal;
+	boolean pesoIdeal;
+	boolean obeso;
+	String grauObesidade;
+	
+
+}
