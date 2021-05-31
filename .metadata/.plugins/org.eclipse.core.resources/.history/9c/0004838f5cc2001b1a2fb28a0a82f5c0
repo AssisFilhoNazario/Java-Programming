@@ -1,0 +1,9 @@
+package exercicio;
+
+public class Caminhada {
+	
+	void andar(Pessoa pessoa, ) {
+		
+	}
+
+}

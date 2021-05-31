@@ -1,0 +1,29 @@
+package exercicio;
+
+public class PetChop {
+
+	public static void main(String[] args) {
+		Cachorro cachorro = new Cachorro();
+		
+		cachorro.nome = "Ralf";
+		cachorro.idade = 1;
+		cachorro.raca = "Vira-lata";
+		cachorro.sexo = 'M';
+		
+		System.out.println("Nome: " + cachorro.nome);
+		System.out.println("Idade: " + cachorro.idade);
+		System.out.println("Raça: " + cachorro.raca);
+		System.out.println("Sexo: " + cachorro.sexo);
+		
+		
+		Pessoa pessoa = new Pessoa ();
+		pessoa.nome = "Zezinho";
+		
+		Caminhada caminhada = new Caminhada();
+		caminhada.andar(pessoa);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package exercicio;
+
+public class PetChop {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa ();
+		
+		pessoa.nome = "Zezinho";
+		
+		Cachorro cachorro = new Cachorro();
+		
+		pessoa.cachorro.nome = "Ralf";
+		
+		Caminhada caminhada = new Caminhada();
+		
+		caminhada.andar(pessoa);
+		
+		
+		
+	}
+
+}
