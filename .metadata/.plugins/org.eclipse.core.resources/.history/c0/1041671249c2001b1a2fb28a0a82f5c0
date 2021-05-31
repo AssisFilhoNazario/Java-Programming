@@ -9,7 +9,7 @@ public class Principal02 {
 		zezinho.cpf = "000.000.000-00";
 		zezinho.logradouro = "Avenida do Zezinho";
 		zezinho.bairro = "Centro";
-		zezinho.cidade = "Fortal City";
+		zezinho.cidade = "Fota City";
 		
 		
 		Carro meuCarro = new Carro();

@@ -1,0 +1,11 @@
+package aula03FolhaDePagamento;
+
+public class Funcionario {
+	String nome;
+	String cargo;
+	FolhaPagamento salario;
+	
+	Funcionario calculaSalario() {
+		return 
+	}
+}
