@@ -1,0 +1,17 @@
+package orientadoObjeto;
+
+public class Carro {
+	String fabricante;
+	String modelo;
+	String cor;
+	int anoDeFabricacao;
+	
+	
+	String nomeDoProprietario;
+	String cpfProprietario;
+	int idadeProprietario;
+	String logradouroPropprietario;
+	String bairroDoProprietario;
+	String cidadeProrietario;
+
+}
