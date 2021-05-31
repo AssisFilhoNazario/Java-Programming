@@ -1,0 +1,11 @@
+package exercicio;
+import exercicios.*;
+public class Pessoa {
+	
+	String nome;
+	Cachorro cachorro;
+	
+	
+	
+
+}
