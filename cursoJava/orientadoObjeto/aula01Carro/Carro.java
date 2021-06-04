@@ -8,6 +8,13 @@ public class Carro {
 	boolean biCombustivel;
 	Proprietario dono;
 	
+	
+	void mudarModelo(String modelo) {
+		if(modelo != null) {
+			this.modelo = modelo;
+		}
+	}
+	
 	void ligarAgora() {
 		System.out.println("Ligando o carro "+ modelo);
 	}
