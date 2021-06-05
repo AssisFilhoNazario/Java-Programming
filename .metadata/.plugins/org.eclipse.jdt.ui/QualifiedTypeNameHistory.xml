@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="orientadoObjeto.Proprietario"/>
     <fullyQualifiedTypeName name="aula02Paciente.Paciente"/>
+    <fullyQualifiedTypeName name="com.algawoorks.curso.fjoo.treinador.DonoCachorro"/>
+    <fullyQualifiedTypeName name="com.algawoorks.curso.fjoo.animal.Cachorro"/>
+    <fullyQualifiedTypeName name="aula08ModificadorStatic.Contador"/>
 </qualifiedTypeNameHistroy>
