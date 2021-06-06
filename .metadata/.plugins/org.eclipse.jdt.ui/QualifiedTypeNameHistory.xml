@@ -9,4 +9,9 @@
     <fullyQualifiedTypeName name="com.algawoorks.curso.fjoo.treinador.DonoCachorro"/>
     <fullyQualifiedTypeName name="com.algawoorks.curso.fjoo.animal.Cachorro"/>
     <fullyQualifiedTypeName name="aula08ModificadorStatic.Contador"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="aula11sobrePosicao.Produto"/>
+    <fullyQualifiedTypeName name="aula11sobrePosicao.ProdutoPerecivel"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
