@@ -14,4 +14,13 @@
     <fullyQualifiedTypeName name="aula11sobrePosicao.ProdutoPerecivel"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="aula1Polimorfismo.TestePolimorfismo"/>
+    <fullyQualifiedTypeName name="aula1Polimorfismo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="aula1Polimorfismo.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="aula14ClassesAbstratas.ProdutoPerecivel"/>
+    <fullyQualifiedTypeName name="aula15Interfaces.Imprimivel"/>
+    <fullyQualifiedTypeName name="aula15Interfaces.NotaFiscal"/>
+    <fullyQualifiedTypeName name="aula15Interfaces.EnviavelPorEmail"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.ContaPagar"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Fornecedor"/>
 </qualifiedTypeNameHistroy>
