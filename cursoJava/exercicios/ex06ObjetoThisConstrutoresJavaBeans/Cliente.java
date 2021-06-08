@@ -1,5 +1,5 @@
 package ex06ObjetoThisConstrutoresJavaBeans;
 
-public class Fornecedor extends Pessoa {
-	
+public class Cliente extends Pessoa{
+
 }

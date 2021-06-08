@@ -1,34 +1,35 @@
 package ex06ObjetoThisConstrutoresJavaBeans;
 
-
-
-public class ContaPagar  {
+public class ContaPagar extends Conta {
 	
-	private String descricao;
-	private double valor;
-	private String dataVencimento;
-	Fornecedor fornecedor;
-	SituacaoConta situacaoConta;
+	private Fornecedor fornecedor;
 	
 	public ContaPagar() {
-		this.situacaoConta = situacaoConta;
 		
 	}
 	
-	public ContaPagar(Fornecedor fornecedor, String descricao, double valor, String dataVencimento, SituacaoConta situacaoConta) {
+	
+	public ContaPagar(Fornecedor fornecedor, String descricao, double valor, String dataVencimento) {
 		this.fornecedor = fornecedor;
-		this.descricao = descricao;
-		this.valor = valor;
-		this.dataVencimento = dataVencimento;
-		this.situacaoConta = situacaoConta;
+		this.setDescricao(descricao);
+		this.setValor(valor);
+		this.setDataVencimento(dataVencimento);
+
+	}
+
+	public void pagar() {
+		
+		if(situacaoConta.PAGA.equals(this.getSituacaoConta())) {
+			System.out.println("Tentativa de pagar uma conta: "+ getSituacaoConta());
+		}else if(situacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
+			System.out.println("Não é possivel pagar uma conta que ja esta: " + getSituacaoConta());
+		}else {
+			this.situacaoConta = situacaoConta.PAGA;
+			System.out.println("Pagamento de conta: "+ getSituacaoConta());	
+		}
 		
 	}
-	
-	public SituacaoConta getSituacaoConta() {
-		return situacaoConta;
-	}
-	
-	
+
 	public Fornecedor getFornecedor() {
 		return fornecedor;
 	}
@@ -36,46 +37,17 @@ public class ContaPagar  {
 	public void setFornecedor(Fornecedor fornecedor) {
 		this.fornecedor = fornecedor;
 	}
-	
-	public void pagar() {
-		
-		if(situacaoConta == situacaoConta.CANCELADA ) {
-			System.out.println("Tentativa de pagar uma conta: "+ getSituacaoConta());
-		}else if(situacaoConta == situacaoConta.PAGA) {
-			System.out.println("Não é possivel pagar uma conta que ja esta: " + getSituacaoConta());
-		}else {
-			situacaoConta = situacaoConta.PAGA;
-			System.out.println("Pagamento de conta: "+ getSituacaoConta());	
-		}
-		
-	}
-	
-	public void cancelar() {
-		situacaoConta = situacaoConta.CANCELADA;
-		System.out.println("Conta: " + getSituacaoConta());
-		
-	}
-	public String getDescricao() {
-		return descricao;
-	}
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
-	}
-	public double getValor() {
-		return valor;
-	}
-	public void setValor(double valor) {
-		this.valor = valor;
-	}
-	public String getDataVencimento() {
-		return dataVencimento;
-	}
-	public void setDataVencimento(String dataVencimento) {
-		this.dataVencimento = dataVencimento;
-	}
 
-	
-	
+	public void exibirDetalhes() {
+		System.out.println("\nConta a Pagar");
+		System.out.println("===================================");
+		System.out.println("Fornecedor: " + this.getFornecedor().getNome());
+		System.out.println("Descrição: " + this.getDescricao());
+		System.out.println("Valor: " + this.getValor());
+		System.out.println("Data de vencimento: " + this.getDataVencimento());
+		System.out.println("Situação: " + this.getSituacaoConta());
+		System.out.println("===================================");
+	}
 	
 
 }

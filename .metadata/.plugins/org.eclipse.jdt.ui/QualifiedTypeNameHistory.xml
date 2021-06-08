@@ -21,6 +21,11 @@
     <fullyQualifiedTypeName name="aula15Interfaces.Imprimivel"/>
     <fullyQualifiedTypeName name="aula15Interfaces.NotaFiscal"/>
     <fullyQualifiedTypeName name="aula15Interfaces.EnviavelPorEmail"/>
-    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.ContaPagar"/>
     <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Fornecedor"/>
+    <fullyQualifiedTypeName name="jdk.internal.vm.annotation.ForceInline"/>
+    <fullyQualifiedTypeName name="ex07staticFinal.MatematicaUtil"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.SituacaoConta"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Cliente"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.ContaReceber"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.ContaPagar"/>
 </qualifiedTypeNameHistroy>

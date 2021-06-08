@@ -20,7 +20,8 @@ public class ContaTeste {
 		
 		double saldo = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor a ser depositado"));
 		minhaConta.deposit(saldo);
-	
+		
+		
 		imprirStatus(minhaConta);
 		imprirStatus(minhaConta2);
 		
