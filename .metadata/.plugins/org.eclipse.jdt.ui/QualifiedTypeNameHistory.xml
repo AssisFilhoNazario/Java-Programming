@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.extended.GetClassNode"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="aprimoramentoJava.Account"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="orientadoObjeto.Proprietario"/>
     <fullyQualifiedTypeName name="aula02Paciente.Paciente"/>
     <fullyQualifiedTypeName name="com.algawoorks.curso.fjoo.treinador.DonoCachorro"/>
@@ -24,8 +22,15 @@
     <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Fornecedor"/>
     <fullyQualifiedTypeName name="jdk.internal.vm.annotation.ForceInline"/>
     <fullyQualifiedTypeName name="ex07staticFinal.MatematicaUtil"/>
-    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.SituacaoConta"/>
     <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Cliente"/>
     <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.ContaReceber"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.SituacaoConta"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Pessoa"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.Conta"/>
+    <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.finaceiro.RelatorioContas"/>
     <fullyQualifiedTypeName name="ex06ObjetoThisConstrutoresJavaBeans.ContaPagar"/>
+    <fullyQualifiedTypeName name="crud.Funcionario"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="aula01Carro.Carro"/>
 </qualifiedTypeNameHistroy>

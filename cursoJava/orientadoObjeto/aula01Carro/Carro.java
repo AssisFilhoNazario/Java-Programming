@@ -1,10 +1,10 @@
 package aula01Carro;
 
 public class Carro {
-	String fabricante;
-	String modelo;
-	String cor;
-	int anoDeFabricacao;
+	public String fabricante;
+	public String modelo;
+	public String cor;
+	public int anoDeFabricacao;
 	boolean biCombustivel;
 	Proprietario dono;
 	
