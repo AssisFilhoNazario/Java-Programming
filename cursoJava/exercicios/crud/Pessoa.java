@@ -1,15 +1,18 @@
 package crud;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Pessoa {
 	
 	private String nome;
-
+	
 	public String getNome() {
 		return nome;
 	}
 
 	public void setNome(String nome) {
-		if(this.nome.equals(null)) {
+		if(this.nome==null) {
 			this.nome = nome;
 		}else {
 			System.out.println("Ja existe um nome de uma pessoa: "+ this.getNome());
@@ -29,5 +32,5 @@ public abstract class Pessoa {
 			this.nome = null;
 		}
 	}
-	
+
 }
